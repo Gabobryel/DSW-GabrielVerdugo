@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Author" content="Gabriel Eduardo Verdugo Medina"/>
+    <meta name="Description" content="Descripción de las tematicas presentadas en la materia de Diseño de Sitio Web"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Atributos y Valores </title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="container-fluid bg-primary">
+        <div class="row">
+            <div class="col-2"> <img src="logo.JPG" alt="logo principal"> </div>
+            <div class="col-10">
+                <h1>
+                    <br>
+                    <br>
+                    <center> <h1>Fase 4 - Diseño y Construcción III </h1></center>
+                </h1>
+            </div>
+        </div>
+
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+        
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Temas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="tema1.html">Etiquetas Básicas de HTML </a></li>
+                            <li><a class="dropdown-item" href="tema2.html">Atributos y Valores </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Recursos Digitales
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="recurso1.html">Recurso Digital uno </a></li>
+                            <li><a class="dropdown-item" href="recurso2.html">Recurso Digital dos </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Aprendizaje
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="aprendizaje.html">Evaluación uno </a></li>
+                            <li><a class="dropdown-item" href="aprendizaje1.html">Evaluación dos </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="autor.html">Autor</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <style>
+        h1{
+            color: black;
+        }
+        @media (min-width: 400px) {
+            h1{
+                color: black;
+            }
+        }
+        @media (max-width: 700px) {
+            h1{
+                color: red;
+            }
+        }
+    </style>
+    <main>
+        <section>
+            
+           
+        <article>
+            <br>
+            <br>
+            <center><h3 id="Atributos y Valores">Atributos y Valores</h3></center>
+            <br>
+            <br>
+            <div style="text-align: justify;"> Los atributos en HTML se consideran como un información adicional a la etiqueta para modificar o agregar alguna característica al contenido. Los atributos tienen una forma correcta de escribirse, dentro de la etiqueta de apertura luego el simbolo igual (=) y entre comillas ("") el valor del atributo. Por otro lado, gran parte de los atributos son usados para darle estilo y estética a la página, pero para ello existen softwares especiales para editar este apartado.
+            </div>
+            <br>
+            <br>
+            <h3>Atributos</h3>
+            <br>
+            <br>
+            <div style="text-align: justify;">&lt;id&gt;: Para identificar un elemento único.
+            </div>
+            <br>
+                <div style="text-align: justify;">&lt;class&gt;: Identificador múltiple.
+                </div>
+                <br>
+                <div style="text-align: justify;">&lt;align&gt;: Alineación de contenido.
+                </div>
+                <br>
+                <div style="text-align: justify;">&lt;border&gt;: Para darle borde al contenido.
+                </div>
+                <br>
+                <div style="text-align: justify;">&lt;style&gt;: Para darle un estilo al contenido.
+                </div>
+                <br>
+                <div style="text-align: justify;">&lt;background-color&gt;: Para color de fondo.
+                </div>
+                <br>
+                <div style="text-align: justify;">&lt;href&gt;: Para enlaces html.
+                </div>
+                <br>
+                <div style="text-align: justify;">&lt;height&gt;:Para determinar altura.
+                </div>
+                <br>
+                <div style="text-align: justify;">&lt;width&gt;:Para determinar ancho.
+                </div>
+                <br>                            
+                <div style="text-align: justify;">&lt;src&gt;:Para imágenes.
+                </div>
+                <br>
+            </div>
+            <br>
+            <h3><div style="text-align: justify;"><strong>Como se puede colocar los Atributos en HTML?</strong></h3>
+            </div>
+            <br>
+            <br>
+            <div style="text-align: justify;">Un atributo se escribe de la siguiente manera: Atributo=“valor”  en esa forma, el nombre del atributo, seguido del signo igual (=) y entre comillas el valor, todo esto siempre dentro de la etiqueta de apertura.</div>
+            <br>
+            <div style="text-align: justify;">Por lo tanto el atributo escrito en una etiqueta (por ejemplo párrafo) se ve así: &lt;p&gt; atributo="valor""Este es un párrafo" &lt;/p&gt;.
+            </div>
+            <br>
+            <br>
+            <figure>    
+                <center> <img src="imagenes/tres.JPG" width="550" alt="Aplicando atributos en HTML"> 
+                <figcaption>Aplicando atributos en HTML</figcaption>
+                </figure>    
+                </center>
+                <br>
+                <h3><div style="text-align: justify;"><strong>Valor de un Atributo</strong></h3>
+                </div>
+                <br>
+                <div style="text-align: justify;">Los valores son utilizados para definir a que medida se modificará el atributo, es decir, los valores modificaran de cierta forma cada atributo, por ejemplo medida de una imágen, color de fondo o incluso para colocar un url para re direccionar la página.</div>
+                <br>
+                <div style="text-align: justify;">Cuando se hace uso de un atributo HTML se debe especificar su valor, este puede representar una cantidad exacta, característica especifica o simplemente en que medida se ejecutará dicho atributo.
+                </div>
+                <br>
+                <div style="text-align: justify;">El valor se expresa entre comillas después del signo de (=), de acuerdo al atributo, pueden haber una variedad de valores disponibles. Por ejemplo, en caso dealign puede tomar el valor de center (centro), right (derecha), left (izquierda), justify (justificado).
+                </div>
+                <br>
+                <br>
+                <h3><div style="text-align: justify;"><strong>Atributos HTML y sus Valores</strong></h3>
+                </div>
+                <br>
+                <div style="text-align: justify;">A continuación veamos algunos atributos y los valores que puede tomar:
+                </div>
+                <br>
+                <h3><div style="text-align: justify;"><strong>Atributo: Valores</strong></h3>
+                </div>
+                <br>
+                <figure>    
+                    <center> <img src="imagenes/cuatro.JPG" width="550" alt="Atributo y su valor"> 
+                    <figcaption>Atributo y su valor</figcaption>
+                    </figure>    
+                    </center>
+                    <br>
+                <h3><div style="text-align: justify;"><strong>Ejemplos:</strong></h3>
+                </div>
+                <br>
+                <div style="text-align: justify;">Por ejemplo el atributo align con su valor en center aplicado a un párrafo hará que el texto este alineado al centro. Además probemos los otros valores como el de derecha e izquierda.
+                </div>
+                <br>
+                <br>
+                <figure>
+                <center><img src="imagenes/quinto.JPG" width="550" alt="Resultado de atributos">
+                <figcaption>Resultado de atributos</figcaption>
+            </figure>
+                </center>
+                <br>
+                <h3><div style="text-align: justify;"><strong>El Atributo Style</strong></h3>
+                </div>
+                <br>
+                <div style="text-align: justify;">El atributo style sirve para agregar estilo a los elementos HTML, la apariencia de los elementos que conocimos hasta ahora y los que aprenderemos en lecciones posteriores pueden ser controlados mediante una enorme variedad propiedades y valores. El atributo style se declara como cualquier otro atributo HTML, su valor puede contener varias declaraciones de estilo separadas por espacio y eso lo hace diferente a otros atributos. A grandes rasgos, una declaración consiste en una propiedad y su respectivo valor, una declaración siempre tiene la siguiente forma: propiedad = valor; primero se escribe la propiedad seguido de dos puntos para definir su valor y finamente se cierra con un punto y coma (;).
+                </div>
+                <br>
+                <h3><div style="text-align: justify;"><strong>Ejemplo:</strong></h3>
+                </div>
+                <br>
+                <figure>
+                    <center><img src="imagenes/sexto.jpg" width="550" alt="Atributo style">
+                    <figcaption>Atributo style</figcaption>
+                </figure>
+                </center>
+                <br>
+                 <div style="text-align: justify;">Con un poco de intuición puedes entender lo que acabamos de escribir, simplemente estamos expresando instrucciones mediante propiedades y valores, fíjate: font-size: tamaño de letra; font-family: tipo de letra; color: color de letra; backgroun-color:color de fondo; padding: relleno; margin: margen; width: ancho; border-style: estilo de borde; border-color: color de borde; border-width: ancho de borde;.
+                </div>
+                <br>
+                <br>
+                <div style="text-align: justify;">
+               </div>
+               <br>
+              <article>
+                                    <h4>Referencias Bibliográficas</h4>
+                                    <br>
+                                    <p> •	Celaya Luna, A. (2014). Creación de páginas web: HTML 5 (pág. 1 a 60). Recuperado de https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/56045 
+                                    </p>
+                                    <p> •	Aprender es Fácil. (2013, 27 abril). Curso de HTML - Capítulo 3: Etiquetas básicas [Vídeo]. YouTube. https://www.youtube.com/watch?v=gHIQ1ik1x2U
+                                    </p>
+                                    <br>
+                                    <p> •   Puig, A. (2016, 1 febrero). Etiquetas HTML básicas que deberías conocer para salir de un apuro. Alfonso Puig. https://alfonsopuig.es/etiquetas-html-basicas/
+                                    </p>
+                                    <br>
+                                    <p> •   Garzón, D. (s. f.). Atributos y Valores en HTML. Github. Recuperado 15 de septiembre de 2021, de https://diegogt11.github.io/DSW-DiegoGarz-n/fase3/temas2.html
+                                    </p>
+                                </article>
+
+        </article>
+            <article>
+                
+            </article>
+        </section>
+        <aside>
+            <center>
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </center>
+        </aside>
+    </main>
+    <footer> 
+        <br>
+        <hr>
+        <br>
+        <p><h3  id="Acerca de"> Autor:</h3></p>
+        <br>
+        <footer>Nombre del creador: Gabriel E. Verdugo M.</footer>
+        <br>
+        <footer>Correo estudiantil: geverdugom@unadvirtual.edu.co</footer>
+        <br>
+        <footer></footer>Skype: gabriel_berdugo</footer>
+        <footer><br>
+        </footer>
+        <footer>Universidad Nacional Abierta y a Distancia "UNAD"</footer>
+        <footer><br>
+        </footer>
+        <footer>Fecha de ultima actualización: 25 / Oct. /2021</footer>
+        <footer><br>
+        </footer>
+        <footer><br><hr>
+            <br>
+        </footer>
+        <footer>
+        </footer>
+    </footer>
+</body>
+</html>
